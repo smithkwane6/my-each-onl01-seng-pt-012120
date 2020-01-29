@@ -1,9 +1,9 @@
-def my_each
+def my_each(array)
   i = 0
-  while i < self.length
-    yield self[i]
+  while i < array.length
+    yield array[i]
     i += 1
 end
 
-  self[0]
+  array
 end
